@@ -13,21 +13,24 @@
             <img id="pingpong" src="https://images.unsplash.com/photo-1611251126118-b1d4f99600a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Ping pong paddles and table">
             <h4 class="margin-left">Ping Pong Score Keeper</h4>
         </div>
-        <!-- <div id="game">
-            
-        </div> -->
     </div>
+
     <div id="game" class="container">
         <h1 id="score" class="margin-left">0 to 0</h1>
         <p class="margin-left">Use the buttons below to keep score.</p>
         
-        <label for="score" class="margin-left">Playing To:</label>
+        <label id="score-label" for="score" class="margin-left">Playing To:</label>
         <select name="score" id="score">
             <option value="5">5</option>
             <option value="7">7</option>
             <option value="9">9</option>
             <option value="11">11</option>
         </select>
+    </div>
+    <div id="buttons">
+        <button id="p1" class="btn">Player 1</button>
+        <button id="p2" class="btn">Player 2</button>
+        <button id="reset" class="btn">Reset</button>
     </div>
     <script src="app.js"></script>
 </body>
