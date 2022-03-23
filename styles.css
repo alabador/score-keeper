@@ -50,5 +50,32 @@ label {
 
 .btn {
     flex-grow: 1;
-    height: 50px;
+    height: 60px;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    /* border-radius: 3px; */
+}
+
+
+#p1 {
+    background-color: rgb(44, 177, 115);
+}
+#p1:hover {
+    background-color: rgb(37, 158, 101);
+    cursor: pointer;
+}
+#p2 {
+    background-color: rgb(50, 130, 204);
+}
+#p2:hover {
+    background-color: rgb(48, 122, 192);
+    cursor: pointer;
+}
+#reset {
+    background-color: rgb(223, 65, 65);
+}
+#reset:hover {
+    background-color: rgb(204, 57, 57);
+    cursor: pointer;
 }
