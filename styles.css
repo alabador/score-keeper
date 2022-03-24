@@ -57,6 +57,11 @@ label {
     /* border-radius: 3px; */
 }
 
+select {
+    height: 30px;
+    font-size: 16px;
+}
+
 
 #p1 {
     background-color: rgb(44, 177, 115);

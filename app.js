@@ -1,10 +1,10 @@
 //variable declarations
 const score = document.querySelector('#score');
-let scoreP2 = document.querySelector('#scoreP2').innerText;
 let p1 = document.querySelector('#p1');
 let p2 = document.querySelector('#p2');
 const reset = document.querySelector('#reset');
 const select = document.querySelector('select');
+let winCon = Number(select.value); 
 
 p1.addEventListener('click', function() {
     let scoreP1 = document.querySelector('#scoreP1').innerText;
@@ -21,3 +21,17 @@ p2.addEventListener('click', function() {
     document.querySelector('#scoreP2').innerText = scoreP2Number;
 
 })
+
+ reset.addEventListener('click', function() {
+    let scoreP1 = document.querySelector('#scoreP1').innerText;
+    let scoreP2 = document.querySelector('#scoreP2').innerText;
+    document.querySelector('#scoreP1').innerText = "0";
+    document.querySelector('#scoreP2').innerText = "0";
+
+ })
+
+select.addEventListener('change', function() {
+    winCon = this.value;
+    console.log(winCon);
+})
+
