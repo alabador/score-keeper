@@ -1,6 +1,9 @@
 # Score Keeper
 This is a project based on the 'Score Keeper' mini-project in [Colt Steele's The Web Developer Bootcamp 2022 on Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/). In this course, this specific project was taught as a code along, but I wanted to try tackling it with only the project brief. Using the knowledge I've learned from the course (as well as using google), this was my solution to the Score Keeper program. 
 
+## Links 
+https://alabador.github.io/score-keeper/
+
 ## Overview
 In this app, users should be able to:
 - Select a score limit
